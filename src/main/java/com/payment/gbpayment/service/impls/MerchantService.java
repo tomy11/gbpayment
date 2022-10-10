@@ -27,8 +27,4 @@ public class MerchantService implements IMerchantService {
         return this.merchantRepository.save(merchant);
     }
 
-    @Override
-    public Merchant updateMerchant(Merchant merchant, Long id) {
-        return null;
-    }
 }

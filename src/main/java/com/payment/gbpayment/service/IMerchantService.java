@@ -8,5 +8,4 @@ public interface IMerchantService {
     public List<Merchant> getAllMerchant();
     public Merchant getMerchantById(Long id);
     public Merchant createMerchant(Merchant merchant);
-    public Merchant updateMerchant(Merchant merchant, Long id);
 }
